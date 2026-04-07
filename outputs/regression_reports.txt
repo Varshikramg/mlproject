@@ -1,0 +1,53 @@
+
+LinearRegression
+RMSE_Log                     0.132595
+RMSE_Dollars             22961.935336
+MAE_Dollars              15213.921421
+R2                           0.905785
+Accuracy_Within_10pct        0.695205
+Accuracy_Within_20pct        0.897260
+
+
+DecisionTree
+RMSE_Log                     0.194136
+RMSE_Dollars             40309.163547
+MAE_Dollars              24422.570575
+R2                           0.798036
+Accuracy_Within_10pct        0.513699
+Accuracy_Within_20pct        0.791096
+
+
+GradientBoosting
+RMSE_Log                     0.139529
+RMSE_Dollars             30161.523181
+MAE_Dollars              16452.039360
+R2                           0.895674
+Accuracy_Within_10pct        0.698630
+Accuracy_Within_20pct        0.910959
+
+
+RandomForest
+RMSE_Log                     0.147831
+RMSE_Dollars             30841.075085
+MAE_Dollars              17473.461062
+R2                           0.882890
+Accuracy_Within_10pct        0.664384
+Accuracy_Within_20pct        0.859589
+
+
+VotingEnsemble
+RMSE_Log                     0.139280
+RMSE_Dollars             28085.467180
+MAE_Dollars              16254.205073
+R2                           0.896046
+Accuracy_Within_10pct        0.695205
+Accuracy_Within_20pct        0.876712
+
+
+StackingEnsemble
+RMSE_Log                     0.131885
+RMSE_Dollars             26769.925133
+MAE_Dollars              15494.681807
+R2                           0.906792
+Accuracy_Within_10pct        0.715753
+Accuracy_Within_20pct        0.893836

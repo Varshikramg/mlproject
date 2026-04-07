@@ -1,0 +1,15 @@
+KMeans clustering report
+Cluster-to-label mapping: {np.int32(0): 'Low', np.int32(1): 'High', np.int32(2): 'High'}
+Binned price accuracy: 0.6541
+Silhouette score: 0.1134
+
+              precision    recall  f1-score   support
+
+        High       0.69      0.95      0.80        99
+         Low       0.63      0.99      0.77        98
+      Medium       0.00      0.00      0.00        95
+
+    accuracy                           0.65       292
+   macro avg       0.44      0.65      0.52       292
+weighted avg       0.44      0.65      0.53       292
+

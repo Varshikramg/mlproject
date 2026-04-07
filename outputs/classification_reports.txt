@@ -1,0 +1,83 @@
+
+LinearRegression
+Accuracy: 0.8425
+              precision    recall  f1-score   support
+
+        High       0.89      0.94      0.91        99
+         Low       0.84      0.89      0.86        98
+      Medium       0.80      0.69      0.74        95
+
+    accuracy                           0.84       292
+   macro avg       0.84      0.84      0.84       292
+weighted avg       0.84      0.84      0.84       292
+
+
+
+DecisionTree
+Accuracy: 0.7671
+              precision    recall  f1-score   support
+
+        High       0.88      0.85      0.86        99
+         Low       0.78      0.82      0.80        98
+      Medium       0.65      0.63      0.64        95
+
+    accuracy                           0.77       292
+   macro avg       0.77      0.77      0.77       292
+weighted avg       0.77      0.77      0.77       292
+
+
+
+GradientBoosting
+Accuracy: 0.8733
+              precision    recall  f1-score   support
+
+        High       0.93      0.93      0.93        99
+         Low       0.86      0.91      0.89        98
+      Medium       0.82      0.78      0.80        95
+
+    accuracy                           0.87       292
+   macro avg       0.87      0.87      0.87       292
+weighted avg       0.87      0.87      0.87       292
+
+
+
+RandomForest
+Accuracy: 0.8562
+              precision    recall  f1-score   support
+
+        High       0.95      0.91      0.93        99
+         Low       0.84      0.88      0.86        98
+      Medium       0.78      0.78      0.78        95
+
+    accuracy                           0.86       292
+   macro avg       0.86      0.86      0.86       292
+weighted avg       0.86      0.86      0.86       292
+
+
+
+VotingEnsemble
+Accuracy: 0.8527
+              precision    recall  f1-score   support
+
+        High       0.92      0.91      0.91        99
+         Low       0.85      0.90      0.87        98
+      Medium       0.79      0.75      0.77        95
+
+    accuracy                           0.85       292
+   macro avg       0.85      0.85      0.85       292
+weighted avg       0.85      0.85      0.85       292
+
+
+
+StackingEnsemble
+Accuracy: 0.8596
+              precision    recall  f1-score   support
+
+        High       0.92      0.93      0.92        99
+         Low       0.85      0.90      0.87        98
+      Medium       0.81      0.75      0.78        95
+
+    accuracy                           0.86       292
+   macro avg       0.86      0.86      0.86       292
+weighted avg       0.86      0.86      0.86       292
+
