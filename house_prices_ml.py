@@ -479,6 +479,11 @@ def make_submission(best_pipeline, test_df):
     submission.to_csv(OUTPUT_DIR / "submission_ensemble.csv", index=False)
 
 
+def save_model_pipelines(fitted_models):
+    for name, pipeline in fitted_models.items():
+        joblib.dump(pipeline, OUTPUT_DIR / f"{name}_pipeline.joblib")
+
+
 def main():
     args = parse_args()
     ensure_dirs()
@@ -531,8 +536,8 @@ def main():
 
     best_model_name = comparison.dropna(subset=["RMSE_Log"]).iloc[0]["Model"]
     best_pipeline = fitted_models.get(best_model_name)
+    save_model_pipelines(fitted_models)
     if best_pipeline is not None:
-        joblib.dump(best_pipeline, OUTPUT_DIR / f"{best_model_name}_pipeline.joblib")
         make_submission(best_pipeline, test)
 
     print("\nFinal model comparison:")
